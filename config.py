@@ -11,6 +11,7 @@ class Config(object):
     MAIL_SERVER = os.environ.get('MAILGUN_SMTP_SERVER')
     MAIL_PORT = 587
     MAIL_USE_SSL = True
+    MAIL_USE_TLS = False
     MAIL_USERNAME = os.environ.get('MAILGUN_SMTP_LOGIN')
     MAIL_PASSWORD = os.environ.get('MAILGUN_SMTP_PASSWORD')
     MAILGUN_DOMAIN = os.environ.get('MAILGUN_DOMAIN')

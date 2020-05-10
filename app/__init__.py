@@ -88,6 +88,6 @@ def create_app(config_class=Config):
 
 @babel.localeselector
 def get_locale():
-    return 'es'
+    return 'en'
 
 from app import models # this import happens after assigning app to workaround circular imports. Models will define the structure of the database.
